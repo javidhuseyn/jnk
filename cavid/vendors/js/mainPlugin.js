@@ -1,0 +1,12 @@
+(function($){
+    $.fn.rengdeyis=function(co){
+        this.css("background",co)
+    }
+    $.fn.floatA=function(){
+        this.click(function(){
+            $(this).css("position","relative").animate({
+                left:"+=300px"
+            },500)
+        })
+    }
+}(jQuery))
